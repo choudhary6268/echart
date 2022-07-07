@@ -1,0 +1,36 @@
+.performance-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+
+  .performance-chart {
+    display: flex;
+    width: 80%;
+    height: 50%;
+  }
+
+  .performance-calender {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 20%;
+    height: 50%;
+
+    .mat-button-toggle-group {
+      height: 2rem;
+      align-items: center;
+      font-size: 1rem;
+      width: 100%;
+      justify-content: space-evenly;
+
+      .mat-button-toggle {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.width-100 {
+  width: 100%;
+  padding: 1rem 2rem;
+}
